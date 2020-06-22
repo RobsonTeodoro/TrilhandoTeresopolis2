@@ -1,0 +1,71 @@
+.JumboHeadImgFeriado {
+    background-image: url(Imagens/travessia5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 190px;
+}
+
+#especial{
+    text-indent: 15px;
+}
+
+footer {
+    clear: both;
+}
+
+footer .container {
+    position: relative;
+}
+
+footer .container p {
+    text-align: center;
+}
+
+.social {
+    position: absolute;
+    bottom: 80px;
+    right: 100px;
+}
+
+.social a {
+    height: 32px;
+    width: -25px;
+    display: block;
+    /*text-indent: -9999px;*/
+}
+
+/*.social a[href*='facebook.com'] {
+    background-image: url(Imagens/facebook.png);
+}
+
+.social a[href*='instagram.com'] {
+    background-image: url(Imagens/instagram.jpg);
+}*/
+
+#testando{
+    background-color: rgba(245, 245, 245, 1);
+     opacity: .8;
+}
+
+/*.navbar a:hover{
+    background-color: rgb(33, 214, 48);
+}*/
+
+
+@media only screen and (max-width: 768px) {
+    .JumboHeadImg{
+        width: auto;
+        
+    }
+    
+    .container{
+        width: 96px;
+    }
+
+    [class*="col-"]{
+        float: right;
+        width: 90%;
+        text-align: center;
+    }
+}
